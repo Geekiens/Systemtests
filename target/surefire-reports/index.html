@@ -1,0 +1,2288 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 16 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Command_line_suite" class="navigator-link">
+              <span class="suite-name border-failed">Command line suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Command_line_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Command_line_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Command_line_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Command_line_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Command_line_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Command_line_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Command_line_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">73 methods, 16 failed,   57 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods failed suite-Command_line_suite"> (hide)</a> <!-- hide-methods failed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods failed suite-Command_line_suite"> (show)</a> <!-- show-methods failed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Command_line_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.GetBookTest" class="method navigator-link" hash-for-method="assertAudiobookOffersAffiliateLink">assertAudiobookOffersAffiliateLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.GetBookTest" class="method navigator-link" hash-for-method="assertAudiobookOffersMediaType">assertAudiobookOffersMediaType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.GetBookTest" class="method navigator-link" hash-for-method="assertAudiobookOffersPrices">assertAudiobookOffersPrices</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.GetBookTest" class="method navigator-link" hash-for-method="assertAudiobookOffersVendor">assertAudiobookOffersVendor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.GetBookTest" class="method navigator-link" hash-for-method="assertEbookOffersAffiliateLink">assertEbookOffersAffiliateLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.GetBookTest" class="method navigator-link" hash-for-method="assertEbookOffersPrices">assertEbookOffersPrices</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.GetBookTest" class="method navigator-link" hash-for-method="assertEbookOffersVendor">assertEbookOffersVendor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.GetBookTest" class="method navigator-link" hash-for-method="assertHardcoverOffersAffiliateLink">assertHardcoverOffersAffiliateLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.GetBookTest" class="method navigator-link" hash-for-method="assertHardcoverOffersMediaType">assertHardcoverOffersMediaType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.GetBookTest" class="method navigator-link" hash-for-method="assertHardcoverOffersPrices">assertHardcoverOffersPrices</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.GetBookTest" class="method navigator-link" hash-for-method="assertHardcoverOffersVendor">assertHardcoverOffersVendor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.GetBookTest" class="method navigator-link" hash-for-method="assertPaperbackOffersAffiliateLink">assertPaperbackOffersAffiliateLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.GetBookTest" class="method navigator-link" hash-for-method="assertPaperbackOffersMediaType">assertPaperbackOffersMediaType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.GetBookTest" class="method navigator-link" hash-for-method="assertPaperbackOffersPrices">assertPaperbackOffersPrices</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.GetBookTest" class="method navigator-link" hash-for-method="assertPaperbackOffersVendor">assertPaperbackOffersVendor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.GetBookTest" class="method navigator-link" hash-for-method="assertebookOffersMediaType">assertebookOffersMediaType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Command_line_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods passed suite-Command_line_suite"> (hide)</a> <!-- hide-methods passed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods passed suite-Command_line_suite"> (show)</a> <!-- show-methods passed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Command_line_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.CreateBookTest" class="method navigator-link" hash-for-method="CreateBookWithAuthorAndTitle">CreateBookWithAuthorAndTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.CreateBookTest" class="method navigator-link" hash-for-method="CreateBookWithGenre">CreateBookWithGenre</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.CreateBookTest" class="method navigator-link" hash-for-method="CreateBookWithIsbn">CreateBookWithIsbn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.CreateBookTest" class="method navigator-link" hash-for-method="CreateBookWithKeywords">CreateBookWithKeywords</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.CreateBookTest" class="method navigator-link" hash-for-method="CreateBookWithLanguages">CreateBookWithLanguages</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.CreateBookTest" class="method navigator-link" hash-for-method="CreateBookWithPages">CreateBookWithPages</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.CreateBookTest" class="method navigator-link" hash-for-method="CreateBookWithPublisher">CreateBookWithPublisher</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.CreateBookTest" class="method navigator-link" hash-for-method="CreateBookWithPublishingContent">CreateBookWithPublishingContent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.CreateBookTest" class="method navigator-link" hash-for-method="CreateBookWithPublishingYear">CreateBookWithPublishingYear</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.rating.CreateRatingTest" class="method navigator-link" hash-for-method="CreatedRating">CreatedRating</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.rating.CreateRatingTest" class="method navigator-link" hash-for-method="CreatedRatingHasAuthor">CreatedRatingHasAuthor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.rating.CreateRatingTest" class="method navigator-link" hash-for-method="CreatedRatingHasContent">CreatedRatingHasContent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.rating.CreateRatingTest" class="method navigator-link" hash-for-method="CreatedRatingHasScore">CreatedRatingHasScore</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.rating.CreateRatingTest" class="method navigator-link" hash-for-method="CreatedRatingHasTitle">CreatedRatingHasTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.rating.CreateRatingTest" class="method navigator-link" hash-for-method="CreatedRatingHasUserId">CreatedRatingHasUserId</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.GetBookTest" class="method navigator-link" hash-for-method="assertAuthor">assertAuthor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.GetBookTest" class="method navigator-link" hash-for-method="assertAverageRating">assertAverageRating</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.GetBookTest" class="method navigator-link" hash-for-method="assertContent">assertContent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.user.LoginTest" class="method navigator-link" hash-for-method="assertData">assertData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.rating.DeleteRatingTest" class="method navigator-link" hash-for-method="assertDeleteAsAdmin">assertDeleteAsAdmin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.DeleteBookTest" class="method navigator-link" hash-for-method="assertDeleteAsAdmin">assertDeleteAsAdmin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.rating.DeleteRatingTest" class="method navigator-link" hash-for-method="assertDeleteAsModerator">assertDeleteAsModerator</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.DeleteBookTest" class="method navigator-link" hash-for-method="assertDeleteAsModerator">assertDeleteAsModerator</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.rating.DeleteRatingTest" class="method navigator-link" hash-for-method="assertDeleteAsUser">assertDeleteAsUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.DeleteBookTest" class="method navigator-link" hash-for-method="assertDeleteAsUser">assertDeleteAsUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.rating.CreateRatingTest" class="method navigator-link" hash-for-method="assertEmailHighRatingNoComment">assertEmailHighRatingNoComment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.rating.CreateRatingTest" class="method navigator-link" hash-for-method="assertEmailLowRatingNoComment">assertEmailLowRatingNoComment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.GetBookTest" class="method navigator-link" hash-for-method="assertGenre">assertGenre</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.GetBookTest" class="method navigator-link" hash-for-method="assertISBN">assertISBN</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.GetBookTest" class="method navigator-link" hash-for-method="assertKeywords">assertKeywords</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.GetBookTest" class="method navigator-link" hash-for-method="assertLanguages">assertLanguages</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.rating.GetRatingsTest" class="method navigator-link" hash-for-method="assertLengthOfList">assertLengthOfList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.GetBooksTest" class="method navigator-link" hash-for-method="assertLengthOfList">assertLengthOfList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.rating.GetRatingsWithContentTest" class="method navigator-link" hash-for-method="assertLengthOfList">assertLengthOfList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.DeleteBookTest" class="method navigator-link" hash-for-method="assertNoExistingBook">assertNoExistingBook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.GetBookTest" class="method navigator-link" hash-for-method="assertPages">assertPages</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.GetBookTest" class="method navigator-link" hash-for-method="assertPublisher">assertPublisher</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.GetBookTest" class="method navigator-link" hash-for-method="assertPublishingYear">assertPublishingYear</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.GetBooksTest" class="method navigator-link" hash-for-method="assertSchema">assertSchema</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.GetBookTest" class="method navigator-link" hash-for-method="assertSchema">assertSchema</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.rating.GetRatingsTest" class="method navigator-link" hash-for-method="assertSchema">assertSchema</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.rating.GetRatingsWithContentTest" class="method navigator-link" hash-for-method="assertSchema">assertSchema</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.GetBookTest" class="method navigator-link" hash-for-method="assertStatusCode">assertStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.rating.CreateRatingTest" class="method navigator-link" hash-for-method="assertStatusCode">assertStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.CreateBookTest" class="method navigator-link" hash-for-method="assertStatusCode">assertStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.rating.DeleteRatingTest" class="method navigator-link" hash-for-method="assertStatusCode">assertStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.user.LoginTest" class="method navigator-link" hash-for-method="assertStatusCode">assertStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.rating.GetRatingsWithContentTest" class="method navigator-link" hash-for-method="assertStatusCode">assertStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.DeleteBookTest" class="method navigator-link" hash-for-method="assertStatusCode">assertStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.rating.GetRatingsTest" class="method navigator-link" hash-for-method="assertStatusCode">assertStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.GetBooksTest" class="method navigator-link" hash-for-method="assertStatusCode">assertStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.user.RegisterTest" class="method navigator-link" hash-for-method="assertStatusCode">assertStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.CreateBookTest" class="method navigator-link" hash-for-method="assertStatusCodeOnBookWithoutAuthor">assertStatusCodeOnBookWithoutAuthor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.CreateBookTest" class="method navigator-link" hash-for-method="assertStatusCodeOnBookWithoutTitle">assertStatusCodeOnBookWithoutTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.CreateBookTest" class="method navigator-link" hash-for-method="assertStatusCodeOnInvalidIsbn">assertStatusCodeOnInvalidIsbn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.GetBookTest" class="method navigator-link" hash-for-method="assertTitle">assertTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.book.GetBookTest" class="method navigator-link" hash-for-method="assertTotalVotes">assertTotalVotes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Command_line_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Command_line_suite" class="panel Command_line_suite">
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.book.GetBookTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertAudiobookOffersAffiliateLink">
+                  </a> <!-- assertAudiobookOffersAffiliateLink -->
+                  <span class="method-name">assertAudiobookOffersAffiliateLink</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+JSON path audiobookOffers.affiliateLink doesn&apos;t match.
+Expected: (a collection containing &quot;www.Buchladen123.de/978-3608939811?media=audiobook&amp;affiliate=bookreviewer&quot; and a collection containing &quot;www.buch-verkauf24.de/bookreviewer/978-3608939811&quot; and a collection containing &quot;www.your-favorite-book-vendor.com/bookreviewer/978-3608939811&quot;)
+  Actual: []
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)
+	at io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
+	at io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)
+	at tests.book.GetBookTest.assertAudiobookOffersAffiliateLink(GetBookTest.java:260)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+... Removed 51 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertAudiobookOffersMediaType">
+                  </a> <!-- assertAudiobookOffersMediaType -->
+                  <span class="method-name">assertAudiobookOffersMediaType</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+JSON path audiobookOffers.mediaType doesn&apos;t match.
+Expected: (a collection containing &quot;AUDIOBOOK&quot; and a collection containing &quot;AUDIOBOOK&quot; and a collection containing &quot;AUDIOBOOK&quot;)
+  Actual: []
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)
+	at io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)
+	at tests.book.GetBookTest.assertAudiobookOffersMediaType(GetBookTest.java:270)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+... Removed 51 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertAudiobookOffersPrices">
+                  </a> <!-- assertAudiobookOffersPrices -->
+                  <span class="method-name">assertAudiobookOffersPrices</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+JSON path audiobookOffers.price doesn&apos;t match.
+Expected: (a collection containing &lt;9.99F&gt; and a collection containing &lt;9.99F&gt; and a collection containing &lt;13.99F&gt;)
+  Actual: []
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)
+	at io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)
+	at tests.book.GetBookTest.assertAudiobookOffersPrices(GetBookTest.java:244)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+... Removed 51 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertAudiobookOffersVendor">
+                  </a> <!-- assertAudiobookOffersVendor -->
+                  <span class="method-name">assertAudiobookOffersVendor</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+JSON path audiobookOffers.vendor doesn&apos;t match.
+Expected: (a collection containing &quot;Buchladen123.de&quot; and a collection containing &quot;Buchverkauf 24&quot; and a collection containing &quot;Your favorite book vendor&quot;)
+  Actual: []
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)
+	at io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)
+	at tests.book.GetBookTest.assertAudiobookOffersVendor(GetBookTest.java:252)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+... Removed 51 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertEbookOffersAffiliateLink">
+                  </a> <!-- assertEbookOffersAffiliateLink -->
+                  <span class="method-name">assertEbookOffersAffiliateLink</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+JSON path ebookOffers.affiliateLink doesn&apos;t match.
+Expected: (a collection containing &quot;www.Buchladen123.de/978-3608939811?media=ebook&amp;affiliate=bookreviewer&quot; and a collection containing &quot;www.buch-verkauf24.de/bookreviewer/978-3608939811&quot; and a collection containing &quot;www.your-favorite-book-vendor.com/bookreviewer/978-3608939811&quot;)
+  Actual: []
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)
+	at io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
+	at io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)
+	at tests.book.GetBookTest.assertEbookOffersAffiliateLink(GetBookTest.java:226)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+... Removed 50 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertEbookOffersPrices">
+                  </a> <!-- assertEbookOffersPrices -->
+                  <span class="method-name">assertEbookOffersPrices</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+JSON path ebookOffers.price doesn&apos;t match.
+Expected: (a collection containing &lt;10.99F&gt; and a collection containing &lt;10.99F&gt; and a collection containing &lt;13.99F&gt;)
+  Actual: []
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)
+	at io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)
+	at tests.book.GetBookTest.assertEbookOffersPrices(GetBookTest.java:210)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+... Removed 50 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertEbookOffersVendor">
+                  </a> <!-- assertEbookOffersVendor -->
+                  <span class="method-name">assertEbookOffersVendor</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+JSON path ebookOffers.vendor doesn&apos;t match.
+Expected: (a collection containing &quot;Buchladen123.de&quot; and a collection containing &quot;Buchverkauf 24&quot; and a collection containing &quot;Your favorite book vendor&quot;)
+  Actual: []
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)
+	at io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)
+	at tests.book.GetBookTest.assertEbookOffersVendor(GetBookTest.java:218)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+... Removed 50 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertHardcoverOffersAffiliateLink">
+                  </a> <!-- assertHardcoverOffersAffiliateLink -->
+                  <span class="method-name">assertHardcoverOffersAffiliateLink</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+JSON path hardcoverOffers.affiliateLink doesn&apos;t match.
+Expected: (a collection containing &quot;www.Buchladen123.de/978-3608939811?media=hardcover&amp;affiliate=bookreviewer&quot; and a collection containing &quot;www.buch-verkauf24.de/bookreviewer/978-3608939811&quot; and a collection containing &quot;www.your-favorite-book-vendor.com/bookreviewer/978-3608939811&quot;)
+  Actual: []
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)
+	at io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
+	at io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)
+	at tests.book.GetBookTest.assertHardcoverOffersAffiliateLink(GetBookTest.java:158)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+... Removed 50 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertHardcoverOffersMediaType">
+                  </a> <!-- assertHardcoverOffersMediaType -->
+                  <span class="method-name">assertHardcoverOffersMediaType</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+JSON path hardcoverOffers.mediaType doesn&apos;t match.
+Expected: (a collection containing &quot;HARDCOVER&quot; and a collection containing &quot;HARDCOVER&quot; and a collection containing &quot;HARDCOVER&quot;)
+  Actual: []
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)
+	at io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)
+	at tests.book.GetBookTest.assertHardcoverOffersMediaType(GetBookTest.java:168)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+... Removed 50 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertHardcoverOffersPrices">
+                  </a> <!-- assertHardcoverOffersPrices -->
+                  <span class="method-name">assertHardcoverOffersPrices</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+JSON path hardcoverOffers.price doesn&apos;t match.
+Expected: (a collection containing &lt;17.99F&gt; and a collection containing &lt;17.98F&gt; and a collection containing &lt;19.99F&gt;)
+  Actual: []
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)
+	at io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)
+	at tests.book.GetBookTest.assertHardcoverOffersPrices(GetBookTest.java:142)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+... Removed 50 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertHardcoverOffersVendor">
+                  </a> <!-- assertHardcoverOffersVendor -->
+                  <span class="method-name">assertHardcoverOffersVendor</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+JSON path hardcoverOffers.vendor doesn&apos;t match.
+Expected: (a collection containing &quot;Buchladen123.de&quot; and a collection containing &quot;Buchverkauf 24&quot; and a collection containing &quot;Your favorite book vendor&quot;)
+  Actual: []
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)
+	at io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)
+	at tests.book.GetBookTest.assertHardcoverOffersVendor(GetBookTest.java:150)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+... Removed 50 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertPaperbackOffersAffiliateLink">
+                  </a> <!-- assertPaperbackOffersAffiliateLink -->
+                  <span class="method-name">assertPaperbackOffersAffiliateLink</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+JSON path paperbackOffers.affiliateLink doesn&apos;t match.
+Expected: (a collection containing &quot;www.Buchladen123.de/978-3608939811?media=paperback&amp;affiliate=bookreviewer&quot; and a collection containing &quot;www.buch-verkauf24.de/bookreviewer/978-3608939811&quot; and a collection containing &quot;www.your-favorite-book-vendor.com/bookreviewer/978-3608939811&quot;)
+  Actual: []
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)
+	at io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
+	at io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)
+	at tests.book.GetBookTest.assertPaperbackOffersAffiliateLink(GetBookTest.java:192)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+... Removed 50 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertPaperbackOffersMediaType">
+                  </a> <!-- assertPaperbackOffersMediaType -->
+                  <span class="method-name">assertPaperbackOffersMediaType</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+JSON path paperbackOffers.mediaType doesn&apos;t match.
+Expected: (a collection containing &quot;PAPERBACK&quot; and a collection containing &quot;PAPERBACK&quot; and a collection containing &quot;PAPERBACK&quot;)
+  Actual: []
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)
+	at io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)
+	at tests.book.GetBookTest.assertPaperbackOffersMediaType(GetBookTest.java:202)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+... Removed 50 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertPaperbackOffersPrices">
+                  </a> <!-- assertPaperbackOffersPrices -->
+                  <span class="method-name">assertPaperbackOffersPrices</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+JSON path paperbackOffers.price doesn&apos;t match.
+Expected: (a collection containing &lt;12.99F&gt; and a collection containing &lt;14.98F&gt; and a collection containing &lt;16.99F&gt;)
+  Actual: []
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)
+	at io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)
+	at tests.book.GetBookTest.assertPaperbackOffersPrices(GetBookTest.java:176)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+... Removed 50 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertPaperbackOffersVendor">
+                  </a> <!-- assertPaperbackOffersVendor -->
+                  <span class="method-name">assertPaperbackOffersVendor</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+JSON path paperbackOffers.vendor doesn&apos;t match.
+Expected: (a collection containing &quot;Buchladen123.de&quot; and a collection containing &quot;Buchverkauf 24&quot; and a collection containing &quot;Your favorite book vendor&quot;)
+  Actual: []
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)
+	at io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)
+	at tests.book.GetBookTest.assertPaperbackOffersVendor(GetBookTest.java:184)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+... Removed 50 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertebookOffersMediaType">
+                  </a> <!-- assertebookOffersMediaType -->
+                  <span class="method-name">assertebookOffersMediaType</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+JSON path ebookOffers.mediaType doesn&apos;t match.
+Expected: (a collection containing &quot;EBOOK&quot; and a collection containing &quot;EBOOK&quot; and a collection containing &quot;EBOOK&quot;)
+  Actual: []
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)
+	at io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
+	at io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)
+	at tests.book.GetBookTest.assertebookOffersMediaType(GetBookTest.java:236)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+... Removed 50 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.book.GetBookTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertAuthor">
+                  </a> <!-- assertAuthor -->
+                  <span class="method-name">assertAuthor</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertAverageRating">
+                  </a> <!-- assertAverageRating -->
+                  <span class="method-name">assertAverageRating</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertContent">
+                  </a> <!-- assertContent -->
+                  <span class="method-name">assertContent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertGenre">
+                  </a> <!-- assertGenre -->
+                  <span class="method-name">assertGenre</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertISBN">
+                  </a> <!-- assertISBN -->
+                  <span class="method-name">assertISBN</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertKeywords">
+                  </a> <!-- assertKeywords -->
+                  <span class="method-name">assertKeywords</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertLanguages">
+                  </a> <!-- assertLanguages -->
+                  <span class="method-name">assertLanguages</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertPages">
+                  </a> <!-- assertPages -->
+                  <span class="method-name">assertPages</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertPublisher">
+                  </a> <!-- assertPublisher -->
+                  <span class="method-name">assertPublisher</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertPublishingYear">
+                  </a> <!-- assertPublishingYear -->
+                  <span class="method-name">assertPublishingYear</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertSchema">
+                  </a> <!-- assertSchema -->
+                  <span class="method-name">assertSchema</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertStatusCode">
+                  </a> <!-- assertStatusCode -->
+                  <span class="method-name">assertStatusCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertTitle">
+                  </a> <!-- assertTitle -->
+                  <span class="method-name">assertTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertTotalVotes">
+                  </a> <!-- assertTotalVotes -->
+                  <span class="method-name">assertTotalVotes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.rating.CreateRatingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreatedRating">
+                  </a> <!-- CreatedRating -->
+                  <span class="method-name">CreatedRating</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreatedRatingHasAuthor">
+                  </a> <!-- CreatedRatingHasAuthor -->
+                  <span class="method-name">CreatedRatingHasAuthor</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreatedRatingHasContent">
+                  </a> <!-- CreatedRatingHasContent -->
+                  <span class="method-name">CreatedRatingHasContent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreatedRatingHasScore">
+                  </a> <!-- CreatedRatingHasScore -->
+                  <span class="method-name">CreatedRatingHasScore</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreatedRatingHasTitle">
+                  </a> <!-- CreatedRatingHasTitle -->
+                  <span class="method-name">CreatedRatingHasTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreatedRatingHasUserId">
+                  </a> <!-- CreatedRatingHasUserId -->
+                  <span class="method-name">CreatedRatingHasUserId</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertEmailHighRatingNoComment">
+                  </a> <!-- assertEmailHighRatingNoComment -->
+                  <span class="method-name">assertEmailHighRatingNoComment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertEmailLowRatingNoComment">
+                  </a> <!-- assertEmailLowRatingNoComment -->
+                  <span class="method-name">assertEmailLowRatingNoComment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertStatusCode">
+                  </a> <!-- assertStatusCode -->
+                  <span class="method-name">assertStatusCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.rating.DeleteRatingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertDeleteAsAdmin">
+                  </a> <!-- assertDeleteAsAdmin -->
+                  <span class="method-name">assertDeleteAsAdmin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertDeleteAsModerator">
+                  </a> <!-- assertDeleteAsModerator -->
+                  <span class="method-name">assertDeleteAsModerator</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertDeleteAsUser">
+                  </a> <!-- assertDeleteAsUser -->
+                  <span class="method-name">assertDeleteAsUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertStatusCode">
+                  </a> <!-- assertStatusCode -->
+                  <span class="method-name">assertStatusCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.book.GetBooksTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertLengthOfList">
+                  </a> <!-- assertLengthOfList -->
+                  <span class="method-name">assertLengthOfList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertSchema">
+                  </a> <!-- assertSchema -->
+                  <span class="method-name">assertSchema</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertStatusCode">
+                  </a> <!-- assertStatusCode -->
+                  <span class="method-name">assertStatusCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.book.DeleteBookTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertDeleteAsAdmin">
+                  </a> <!-- assertDeleteAsAdmin -->
+                  <span class="method-name">assertDeleteAsAdmin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertDeleteAsModerator">
+                  </a> <!-- assertDeleteAsModerator -->
+                  <span class="method-name">assertDeleteAsModerator</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertDeleteAsUser">
+                  </a> <!-- assertDeleteAsUser -->
+                  <span class="method-name">assertDeleteAsUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertNoExistingBook">
+                  </a> <!-- assertNoExistingBook -->
+                  <span class="method-name">assertNoExistingBook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertStatusCode">
+                  </a> <!-- assertStatusCode -->
+                  <span class="method-name">assertStatusCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.user.RegisterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertStatusCode">
+                  </a> <!-- assertStatusCode -->
+                  <span class="method-name">assertStatusCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.book.CreateBookTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreateBookWithAuthorAndTitle">
+                  </a> <!-- CreateBookWithAuthorAndTitle -->
+                  <span class="method-name">CreateBookWithAuthorAndTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreateBookWithGenre">
+                  </a> <!-- CreateBookWithGenre -->
+                  <span class="method-name">CreateBookWithGenre</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreateBookWithIsbn">
+                  </a> <!-- CreateBookWithIsbn -->
+                  <span class="method-name">CreateBookWithIsbn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreateBookWithKeywords">
+                  </a> <!-- CreateBookWithKeywords -->
+                  <span class="method-name">CreateBookWithKeywords</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreateBookWithLanguages">
+                  </a> <!-- CreateBookWithLanguages -->
+                  <span class="method-name">CreateBookWithLanguages</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreateBookWithPages">
+                  </a> <!-- CreateBookWithPages -->
+                  <span class="method-name">CreateBookWithPages</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreateBookWithPublisher">
+                  </a> <!-- CreateBookWithPublisher -->
+                  <span class="method-name">CreateBookWithPublisher</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreateBookWithPublishingContent">
+                  </a> <!-- CreateBookWithPublishingContent -->
+                  <span class="method-name">CreateBookWithPublishingContent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreateBookWithPublishingYear">
+                  </a> <!-- CreateBookWithPublishingYear -->
+                  <span class="method-name">CreateBookWithPublishingYear</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertStatusCode">
+                  </a> <!-- assertStatusCode -->
+                  <span class="method-name">assertStatusCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertStatusCodeOnBookWithoutAuthor">
+                  </a> <!-- assertStatusCodeOnBookWithoutAuthor -->
+                  <span class="method-name">assertStatusCodeOnBookWithoutAuthor</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertStatusCodeOnBookWithoutTitle">
+                  </a> <!-- assertStatusCodeOnBookWithoutTitle -->
+                  <span class="method-name">assertStatusCodeOnBookWithoutTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertStatusCodeOnInvalidIsbn">
+                  </a> <!-- assertStatusCodeOnInvalidIsbn -->
+                  <span class="method-name">assertStatusCodeOnInvalidIsbn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.rating.GetRatingsWithContentTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertLengthOfList">
+                  </a> <!-- assertLengthOfList -->
+                  <span class="method-name">assertLengthOfList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertSchema">
+                  </a> <!-- assertSchema -->
+                  <span class="method-name">assertSchema</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertStatusCode">
+                  </a> <!-- assertStatusCode -->
+                  <span class="method-name">assertStatusCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.user.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertData">
+                  </a> <!-- assertData -->
+                  <span class="method-name">assertData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertStatusCode">
+                  </a> <!-- assertStatusCode -->
+                  <span class="method-name">assertStatusCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.rating.GetRatingsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertLengthOfList">
+                  </a> <!-- assertLengthOfList -->
+                  <span class="method-name">assertLengthOfList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertSchema">
+                  </a> <!-- assertSchema -->
+                  <span class="method-name">assertSchema</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertStatusCode">
+                  </a> <!-- assertStatusCode -->
+                  <span class="method-name">assertStatusCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+        </div> <!-- panel Command_line_suite -->
+        <div panel-name="test-xml-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Command line suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Command line test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.book.CreateBookTest&quot;/&gt;
+      &lt;class name=&quot;tests.book.DeleteBookTest&quot;/&gt;
+      &lt;class name=&quot;tests.book.GetBooksTest&quot;/&gt;
+      &lt;class name=&quot;tests.book.GetBookTest&quot;/&gt;
+      &lt;class name=&quot;tests.rating.CreateRatingTest&quot;/&gt;
+      &lt;class name=&quot;tests.rating.DeleteRatingTest&quot;/&gt;
+      &lt;class name=&quot;tests.rating.GetRatingsTest&quot;/&gt;
+      &lt;class name=&quot;tests.rating.GetRatingsWithContentTest&quot;/&gt;
+      &lt;class name=&quot;tests.user.LoginTest&quot;/&gt;
+      &lt;class name=&quot;tests.user.RegisterTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- Command line suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (10 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Command_line_suite');
+function tableData_Command_line_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(73);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'CreateBookWithAuthorAndTitle')
+data.setCell(0, 2, 'tests.book.CreateBookTest')
+data.setCell(0, 3, 8538);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'assertEmailHighRatingNoComment')
+data.setCell(1, 2, 'tests.rating.CreateRatingTest')
+data.setCell(1, 3, 6025);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'assertEmailLowRatingNoComment')
+data.setCell(2, 2, 'tests.rating.CreateRatingTest')
+data.setCell(2, 3, 4297);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'CreateBookWithPublisher')
+data.setCell(3, 2, 'tests.book.CreateBookTest')
+data.setCell(3, 3, 3139);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'CreateBookWithPublishingContent')
+data.setCell(4, 2, 'tests.book.CreateBookTest')
+data.setCell(4, 3, 3138);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'CreateBookWithKeywords')
+data.setCell(5, 2, 'tests.book.CreateBookTest')
+data.setCell(5, 3, 3125);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'CreateBookWithGenre')
+data.setCell(6, 2, 'tests.book.CreateBookTest')
+data.setCell(6, 3, 3113);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'CreateBookWithPublishingYear')
+data.setCell(7, 2, 'tests.book.CreateBookTest')
+data.setCell(7, 3, 3111);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'assertAudiobookOffersAffiliateLink')
+data.setCell(8, 2, 'tests.book.GetBookTest')
+data.setCell(8, 3, 3111);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'CreateBookWithIsbn')
+data.setCell(9, 2, 'tests.book.CreateBookTest')
+data.setCell(9, 3, 3109);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'assertDeleteAsUser')
+data.setCell(10, 2, 'tests.book.DeleteBookTest')
+data.setCell(10, 3, 3108);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'CreateBookWithLanguages')
+data.setCell(11, 2, 'tests.book.CreateBookTest')
+data.setCell(11, 3, 3106);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'CreateBookWithPages')
+data.setCell(12, 2, 'tests.book.CreateBookTest')
+data.setCell(12, 3, 3106);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'assertAudiobookOffersMediaType')
+data.setCell(13, 2, 'tests.book.GetBookTest')
+data.setCell(13, 3, 3084);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'assertEbookOffersVendor')
+data.setCell(14, 2, 'tests.book.GetBookTest')
+data.setCell(14, 3, 3077);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'assertEbookOffersAffiliateLink')
+data.setCell(15, 2, 'tests.book.GetBookTest')
+data.setCell(15, 3, 3076);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'assertAuthor')
+data.setCell(16, 2, 'tests.book.GetBookTest')
+data.setCell(16, 3, 3073);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'assertEbookOffersPrices')
+data.setCell(17, 2, 'tests.book.GetBookTest')
+data.setCell(17, 3, 3070);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'assertPaperbackOffersVendor')
+data.setCell(18, 2, 'tests.book.GetBookTest')
+data.setCell(18, 3, 3070);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'assertTitle')
+data.setCell(19, 2, 'tests.book.GetBookTest')
+data.setCell(19, 3, 3069);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'assertebookOffersMediaType')
+data.setCell(20, 2, 'tests.book.GetBookTest')
+data.setCell(20, 3, 3069);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'assertPublisher')
+data.setCell(21, 2, 'tests.book.GetBookTest')
+data.setCell(21, 3, 3068);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'assertContent')
+data.setCell(22, 2, 'tests.book.GetBookTest')
+data.setCell(22, 3, 3066);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'assertHardcoverOffersMediaType')
+data.setCell(23, 2, 'tests.book.GetBookTest')
+data.setCell(23, 3, 3065);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'assertLanguages')
+data.setCell(24, 2, 'tests.book.GetBookTest')
+data.setCell(24, 3, 3063);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'assertAverageRating')
+data.setCell(25, 2, 'tests.book.GetBookTest')
+data.setCell(25, 3, 3062);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'assertPaperbackOffersMediaType')
+data.setCell(26, 2, 'tests.book.GetBookTest')
+data.setCell(26, 3, 3062);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'assertHardcoverOffersVendor')
+data.setCell(27, 2, 'tests.book.GetBookTest')
+data.setCell(27, 3, 3061);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'assertTotalVotes')
+data.setCell(28, 2, 'tests.book.GetBookTest')
+data.setCell(28, 3, 3060);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'assertAudiobookOffersVendor')
+data.setCell(29, 2, 'tests.book.GetBookTest')
+data.setCell(29, 3, 3060);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'assertHardcoverOffersAffiliateLink')
+data.setCell(30, 2, 'tests.book.GetBookTest')
+data.setCell(30, 3, 3059);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'assertPages')
+data.setCell(31, 2, 'tests.book.GetBookTest')
+data.setCell(31, 3, 3058);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'assertSchema')
+data.setCell(32, 2, 'tests.book.GetBookTest')
+data.setCell(32, 3, 3056);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'assertAudiobookOffersPrices')
+data.setCell(33, 2, 'tests.book.GetBookTest')
+data.setCell(33, 3, 3056);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'assertHardcoverOffersPrices')
+data.setCell(34, 2, 'tests.book.GetBookTest')
+data.setCell(34, 3, 3055);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'assertPaperbackOffersAffiliateLink')
+data.setCell(35, 2, 'tests.book.GetBookTest')
+data.setCell(35, 3, 3055);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'assertStatusCode')
+data.setCell(36, 2, 'tests.book.GetBookTest')
+data.setCell(36, 3, 3053);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'assertPaperbackOffersPrices')
+data.setCell(37, 2, 'tests.book.GetBookTest')
+data.setCell(37, 3, 3053);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'assertPublishingYear')
+data.setCell(38, 2, 'tests.book.GetBookTest')
+data.setCell(38, 3, 3046);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'assertKeywords')
+data.setCell(39, 2, 'tests.book.GetBookTest')
+data.setCell(39, 3, 3046);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'assertISBN')
+data.setCell(40, 2, 'tests.book.GetBookTest')
+data.setCell(40, 3, 3042);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'assertGenre')
+data.setCell(41, 2, 'tests.book.GetBookTest')
+data.setCell(41, 3, 3039);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'assertSchema')
+data.setCell(42, 2, 'tests.book.GetBooksTest')
+data.setCell(42, 3, 552);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'assertDeleteAsUser')
+data.setCell(43, 2, 'tests.rating.DeleteRatingTest')
+data.setCell(43, 3, 84);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'assertDeleteAsModerator')
+data.setCell(44, 2, 'tests.rating.DeleteRatingTest')
+data.setCell(44, 3, 76);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'assertLengthOfList')
+data.setCell(45, 2, 'tests.book.GetBooksTest')
+data.setCell(45, 3, 67);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'CreatedRatingHasUserId')
+data.setCell(46, 2, 'tests.rating.CreateRatingTest')
+data.setCell(46, 3, 64);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'CreatedRatingHasTitle')
+data.setCell(47, 2, 'tests.rating.CreateRatingTest')
+data.setCell(47, 3, 63);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'assertDeleteAsModerator')
+data.setCell(48, 2, 'tests.book.DeleteBookTest')
+data.setCell(48, 3, 61);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'CreatedRating')
+data.setCell(49, 2, 'tests.rating.CreateRatingTest')
+data.setCell(49, 3, 58);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'CreatedRatingHasContent')
+data.setCell(50, 2, 'tests.rating.CreateRatingTest')
+data.setCell(50, 3, 58);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'CreatedRatingHasAuthor')
+data.setCell(51, 2, 'tests.rating.CreateRatingTest')
+data.setCell(51, 3, 58);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'assertStatusCodeOnBookWithoutAuthor')
+data.setCell(52, 2, 'tests.book.CreateBookTest')
+data.setCell(52, 3, 57);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'CreatedRatingHasScore')
+data.setCell(53, 2, 'tests.rating.CreateRatingTest')
+data.setCell(53, 3, 56);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'assertDeleteAsAdmin')
+data.setCell(54, 2, 'tests.rating.DeleteRatingTest')
+data.setCell(54, 3, 55);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'assertStatusCode')
+data.setCell(55, 2, 'tests.rating.DeleteRatingTest')
+data.setCell(55, 3, 49);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'assertStatusCode')
+data.setCell(56, 2, 'tests.rating.CreateRatingTest')
+data.setCell(56, 3, 41);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'assertDeleteAsAdmin')
+data.setCell(57, 2, 'tests.book.DeleteBookTest')
+data.setCell(57, 3, 41);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'assertStatusCode')
+data.setCell(58, 2, 'tests.book.DeleteBookTest')
+data.setCell(58, 3, 38);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'assertStatusCode')
+data.setCell(59, 2, 'tests.book.CreateBookTest')
+data.setCell(59, 3, 37);
+data.setCell(60, 0, 60)
+data.setCell(60, 1, 'assertSchema')
+data.setCell(60, 2, 'tests.rating.GetRatingsTest')
+data.setCell(60, 3, 36);
+data.setCell(61, 0, 61)
+data.setCell(61, 1, 'assertStatusCode')
+data.setCell(61, 2, 'tests.user.RegisterTest')
+data.setCell(61, 3, 26);
+data.setCell(62, 0, 62)
+data.setCell(62, 1, 'assertNoExistingBook')
+data.setCell(62, 2, 'tests.book.DeleteBookTest')
+data.setCell(62, 3, 22);
+data.setCell(63, 0, 63)
+data.setCell(63, 1, 'assertSchema')
+data.setCell(63, 2, 'tests.rating.GetRatingsWithContentTest')
+data.setCell(63, 3, 20);
+data.setCell(64, 0, 64)
+data.setCell(64, 1, 'assertLengthOfList')
+data.setCell(64, 2, 'tests.rating.GetRatingsTest')
+data.setCell(64, 3, 18);
+data.setCell(65, 0, 65)
+data.setCell(65, 1, 'assertLengthOfList')
+data.setCell(65, 2, 'tests.rating.GetRatingsWithContentTest')
+data.setCell(65, 3, 14);
+data.setCell(66, 0, 66)
+data.setCell(66, 1, 'assertData')
+data.setCell(66, 2, 'tests.user.LoginTest')
+data.setCell(66, 3, 13);
+data.setCell(67, 0, 67)
+data.setCell(67, 1, 'assertStatusCode')
+data.setCell(67, 2, 'tests.book.GetBooksTest')
+data.setCell(67, 3, 12);
+data.setCell(68, 0, 68)
+data.setCell(68, 1, 'assertStatusCodeOnInvalidIsbn')
+data.setCell(68, 2, 'tests.book.CreateBookTest')
+data.setCell(68, 3, 11);
+data.setCell(69, 0, 69)
+data.setCell(69, 1, 'assertStatusCodeOnBookWithoutTitle')
+data.setCell(69, 2, 'tests.book.CreateBookTest')
+data.setCell(69, 3, 11);
+data.setCell(70, 0, 70)
+data.setCell(70, 1, 'assertStatusCode')
+data.setCell(70, 2, 'tests.user.LoginTest')
+data.setCell(70, 3, 10);
+data.setCell(71, 0, 71)
+data.setCell(71, 1, 'assertStatusCode')
+data.setCell(71, 2, 'tests.rating.GetRatingsWithContentTest')
+data.setCell(71, 3, 10);
+data.setCell(72, 0, 72)
+data.setCell(72, 1, 'assertStatusCode')
+data.setCell(72, 2, 'tests.rating.GetRatingsTest')
+data.setCell(72, 3, 10);
+window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Command_line_suite">
+              </div> <!-- times-div-Command_line_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.book.CreateBookTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">CreateBookWithAuthorAndTitle</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CreateBookWithGenre</span>
+                <span class="method-start">8541 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CreateBookWithIsbn</span>
+                <span class="method-start">11654 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CreateBookWithKeywords</span>
+                <span class="method-start">14764 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CreateBookWithLanguages</span>
+                <span class="method-start">17890 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CreateBookWithPages</span>
+                <span class="method-start">20997 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CreateBookWithPublisher</span>
+                <span class="method-start">24104 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CreateBookWithPublishingContent</span>
+                <span class="method-start">27244 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CreateBookWithPublishingYear</span>
+                <span class="method-start">30382 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">assertStatusCode</span>
+                <span class="method-start">33493 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">assertStatusCodeOnBookWithoutAuthor</span>
+                <span class="method-start">33531 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">assertStatusCodeOnBookWithoutTitle</span>
+                <span class="method-start">33588 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">assertStatusCodeOnInvalidIsbn</span>
+                <span class="method-start">33600 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.book.DeleteBookTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">assertDeleteAsAdmin</span>
+                <span class="method-start">33614 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">assertDeleteAsModerator</span>
+                <span class="method-start">33656 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">assertDeleteAsUser</span>
+                <span class="method-start">33718 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">assertNoExistingBook</span>
+                <span class="method-start">36827 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">assertStatusCode</span>
+                <span class="method-start">36850 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.book.GetBooksTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">assertLengthOfList</span>
+                <span class="method-start">36889 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">assertSchema</span>
+                <span class="method-start">36957 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">assertStatusCode</span>
+                <span class="method-start">37509 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.book.GetBookTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">assertAudiobookOffersAffiliateLink</span>
+                <span class="method-start">37522 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">assertAudiobookOffersMediaType</span>
+                <span class="method-start">40647 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">assertAudiobookOffersPrices</span>
+                <span class="method-start">43732 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">assertAudiobookOffersVendor</span>
+                <span class="method-start">46789 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">assertAuthor</span>
+                <span class="method-start">49850 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">assertAverageRating</span>
+                <span class="method-start">52924 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">assertContent</span>
+                <span class="method-start">55987 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">assertEbookOffersAffiliateLink</span>
+                <span class="method-start">59054 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">assertEbookOffersPrices</span>
+                <span class="method-start">62131 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">assertEbookOffersVendor</span>
+                <span class="method-start">65202 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">assertGenre</span>
+                <span class="method-start">68280 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">assertHardcoverOffersAffiliateLink</span>
+                <span class="method-start">71320 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">assertHardcoverOffersMediaType</span>
+                <span class="method-start">74380 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">assertHardcoverOffersPrices</span>
+                <span class="method-start">77446 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">assertHardcoverOffersVendor</span>
+                <span class="method-start">80502 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">assertISBN</span>
+                <span class="method-start">83565 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">assertKeywords</span>
+                <span class="method-start">86608 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">assertLanguages</span>
+                <span class="method-start">89654 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">assertPages</span>
+                <span class="method-start">92717 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">assertPaperbackOffersAffiliateLink</span>
+                <span class="method-start">95776 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">assertPaperbackOffersMediaType</span>
+                <span class="method-start">98832 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">assertPaperbackOffersPrices</span>
+                <span class="method-start">101895 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">assertPaperbackOffersVendor</span>
+                <span class="method-start">104949 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">assertPublisher</span>
+                <span class="method-start">108020 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">assertPublishingYear</span>
+                <span class="method-start">111088 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">assertSchema</span>
+                <span class="method-start">114134 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">assertStatusCode</span>
+                <span class="method-start">117191 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">assertTitle</span>
+                <span class="method-start">120244 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">assertTotalVotes</span>
+                <span class="method-start">123313 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">assertebookOffersMediaType</span>
+                <span class="method-start">126374 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.rating.CreateRatingTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">CreatedRating</span>
+                <span class="method-start">129445 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CreatedRatingHasAuthor</span>
+                <span class="method-start">129504 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CreatedRatingHasContent</span>
+                <span class="method-start">129562 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CreatedRatingHasScore</span>
+                <span class="method-start">129620 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CreatedRatingHasTitle</span>
+                <span class="method-start">129677 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CreatedRatingHasUserId</span>
+                <span class="method-start">129740 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">assertEmailHighRatingNoComment</span>
+                <span class="method-start">129805 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">assertEmailLowRatingNoComment</span>
+                <span class="method-start">135830 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">assertStatusCode</span>
+                <span class="method-start">140128 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.rating.DeleteRatingTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">assertDeleteAsAdmin</span>
+                <span class="method-start">140169 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">assertDeleteAsModerator</span>
+                <span class="method-start">140224 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">assertDeleteAsUser</span>
+                <span class="method-start">140300 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">assertStatusCode</span>
+                <span class="method-start">140385 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.rating.GetRatingsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">assertLengthOfList</span>
+                <span class="method-start">140435 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">assertSchema</span>
+                <span class="method-start">140453 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">assertStatusCode</span>
+                <span class="method-start">140489 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.rating.GetRatingsWithContentTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">assertLengthOfList</span>
+                <span class="method-start">140500 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">assertSchema</span>
+                <span class="method-start">140514 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">assertStatusCode</span>
+                <span class="method-start">140535 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.user.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">assertData</span>
+                <span class="method-start">140546 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">assertStatusCode</span>
+                <span class="method-start">140559 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.user.RegisterTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">assertStatusCode</span>
+                <span class="method-start">140570 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,36 @@
+
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "List of Ratings",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "number"
+      },
+      "score": {
+        "type": "number"
+      },
+      "title": {
+        "type": "string"
+      },
+      "content": {
+        "member_region": { "type": "string, null" }
+      },
+      "userId": {
+        "member_region": { "type": "number, null" }
+      },
+      "author": {
+        "member_region": { "type": "string, null" }
+      }
+    },
+    "required": [
+      "author",
+      "title",
+      "id",
+      "userId",
+      "score"
+    ]
+  }
+}

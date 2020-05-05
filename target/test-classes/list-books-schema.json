@@ -1,0 +1,30 @@
+
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "List of Books",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "number"
+      },
+      "author": {
+        "type": "string"
+      },
+      "title": {
+        "type": "string"
+      },
+      "totalVotes": {
+        "type": "number"
+      },
+      "averageRating": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "author",
+      "title"
+    ]
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Herr der Ringe Book",
+  "type": "object",
+  "properties": {
+    "author": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "genre": {
+      "type": "string"
+    },
+    "keywords": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "languages": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "publisher": {
+      "type": "string"
+    },
+    "pages": {
+      "type": "number"
+    },
+    "isbn": {
+      "type": "string"
+    },
+    "publishingYear": {
+      "type": "number"
+    },
+    "content": {
+      "type": "string"
+    },
+    "totalVotes": {
+      "type": "number"
+    },
+    "averageRating": {
+      "type": "number"
+    },
+    "hardcoverOffers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "price": {
+            "type": "number"
+          },
+          "vendor": {
+            "type": "string"
+          },
+          "affiliateLink": {
+            "type": "string"
+          },
+          "mediaType": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "paperbackOffers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "price": {
+            "type": "number"
+          },
+          "vendor": {
+            "type": "string"
+          },
+          "affiliateLink": {
+            "type": "string"
+          },
+          "mediaType": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "ebookOffers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "price": {
+            "type": "number"
+          },
+          "vendor": {
+            "type": "string"
+          },
+          "affiliateLink": {
+            "type": "string"
+          },
+          "mediaType": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "audiobookOffers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "price": {
+            "type": "number"
+          },
+          "vendor": {
+            "type": "string"
+          },
+          "affiliateLink": {
+            "type": "string"
+          },
+          "mediaType": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "author",
+    "title"
+  ]
+}

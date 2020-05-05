@@ -1,0 +1,37 @@
+
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "List of Rating with comment",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "number"
+      },
+      "score": {
+        "type": "number"
+      },
+      "title": {
+        "type": "string"
+      },
+      "content": {
+        "type": "string"
+      },
+      "userId": {
+        "member_region": { "type": "number, null" }
+      },
+      "author": {
+        "member_region": { "type": "string, null" }
+      }
+    },
+    "required": [
+      "author",
+      "title",
+      "id",
+      "userId",
+      "score",
+      "content"
+    ]
+  }
+}
